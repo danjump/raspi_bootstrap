@@ -17,6 +17,7 @@ shopt -s histappend
 set -o vi
 
 # alias's:
+alias jupnb='screen -dm bash -c "cd ~; jupyter notebook --no-browser"
 alias branch='echo "Local:"; git branch -vv; echo "Remote:"; git branch -r'
 alias gitrootdir='git rev-parse --show-toplevel'
 

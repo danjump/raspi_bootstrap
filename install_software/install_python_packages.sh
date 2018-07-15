@@ -1,5 +1,8 @@
 #!/bin/bash
 
-conda install numpy sklearn pandas scipy
+conda install numpy scikit-learn pandas scipy matplotlib seaborn jupyter
 pip install tqdm
 pip install clashroyale
+
+jupyter notebook --generate-config
+jupyter notebook password
